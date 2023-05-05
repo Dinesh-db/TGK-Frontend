@@ -1,0 +1,46 @@
+
+.service-container{
+    height:fit-content;
+}
+
+.ser-con1{
+    display: flex;
+}
+
+.ser-con2{
+    display: flex;
+}
+
+.ser-img{
+    height: fit-content;
+    margin: 50px;
+    margin-top: 130px;
+    width: calc(100%/2);
+}
+
+.ser-text{
+    font-style: italic;
+    font-size: large;
+    padding: 40px;
+}
+
+@media(max-width:850px){
+    .ser-con1{
+        display: flex;
+        width: fit-content;
+        flex-direction: column;
+   }
+    .ser-img{
+        display: none;
+    }
+    .ser-img2{
+        display: none;
+    }
+    .ser-text{
+        font-style: italic;
+        width: fit-content;
+        margin: 0;
+    }
+
+    
+}

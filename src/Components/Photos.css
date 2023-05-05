@@ -1,0 +1,12 @@
+.containerStyles{
+    width: 70%;
+    height: 350px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.Photo-container{
+    height: 80vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

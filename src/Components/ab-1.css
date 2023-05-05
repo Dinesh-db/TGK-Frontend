@@ -1,0 +1,56 @@
+.Container-1{
+    display: flex;
+    height: fit-content;
+    flex-direction: row;
+}
+
+.About-1{
+   background:url(../assests/About1.jpg);
+    width: calc(100%/2);
+    margin: 60px;
+}
+.About-2{
+    border: solid;
+    border-radius: 10px;
+    height:fit-content;
+    padding: 50px;
+    margin: 60px;
+    width: calc(100%/2);
+}
+.btncli{
+    background: #222;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    width:fit-content;
+}
+
+.btncli a{
+    color: #fff;
+    text-decoration: none;
+
+}
+.content{
+    margin:30px;
+}
+
+@media(max-width:850px){
+    .Container-1{
+        display: flex;
+        height: 600px;
+        flex-direction: column;
+    }
+    .btncli{
+        background: #222;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 10px;
+        padding: 10px;
+        margin-top: 20px;
+        width:fit-content;
+    }
+    
+
+}

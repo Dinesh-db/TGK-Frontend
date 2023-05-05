@@ -1,0 +1,42 @@
+.List-container{
+    margin: 20px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+.List-container h1{
+    margin-left: 40px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+.table-headings{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: space-between;
+}
+.tab-h1{
+    border: solid;
+    border-width: calc(100%/4);
+    width: 100%;
+}
+
+.table-datas{
+    display: flex;
+    padding-top: 20px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.t-data{
+    width: 100%;
+}
+.List-details{
+    padding: 20px;
+}
+
+.t-list{
+    display: flex;
+}
+.t-list-data{
+    margin-left: 10px;
+}

@@ -1,0 +1,100 @@
+
+.footer1{
+    margin-top: 50px;
+    height: fit-content;
+}
+
+.footer{
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(46, 46, 46);
+    color: white;
+    display: flex;
+    flex: 20%;
+    flex-direction: row;
+    flex-grow: 3;
+}
+.about{
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    text-align: center;
+    width: calc(100%/3);
+
+}
+.address{
+    
+    text-align: center;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    width: calc(100%/3);
+}
+.address p{
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.about p{
+    text-align: center;
+    justify-content:flex-start;
+    width:100%;
+}
+.about a{
+    text-decoration: none;
+    background-color: aliceblue;
+    padding: 1rem 1 rem;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #121111;
+    padding: 0.7rem 1rem;
+}
+.Contact{
+    text-align: center;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    width: calc(100%/3);
+}
+.Contact i{
+    text-decoration: none;
+    color:#fff;
+    padding: 0.7rem 1rem;
+    white-space: nowrap;
+}
+.footer i:hover{
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.45em);
+}
+.footer1 p{
+    text-align: center;
+}
+@media(max-width:850px){
+    .footer{
+        height: fit-content;
+        width: 100%;
+        background-color: rgb(46, 46, 46);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: medium;
+    }
+    .about{
+        margin-left: 120px;
+        text-align: center;
+        width:fit-content;
+    }
+    .Contact{
+        text-align: center;
+        width:fit-content;
+    }
+    .address{
+        margin-left: 120px;
+        text-align: center;
+        width: fit-content;
+    }
+    
+    
+}

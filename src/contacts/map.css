@@ -1,0 +1,28 @@
+.map1{
+    height: 60vh;
+    margin: 80px;
+    background:#222;
+    color:#fff;
+    border: solid;
+    border-color: #222;
+    border-radius: 20px;
+}
+
+
+.mapimg{
+    border-radius: 20px;
+    width: 100%;
+    max-height: auto;
+}
+
+@media(max-width:850px){
+    .map1{
+        width: fit-content;
+        margin: 10px;
+    }  
+    .mapimg{
+        border-radius: 20px;
+        width: 100%;
+        max-height: auto;
+    }
+}

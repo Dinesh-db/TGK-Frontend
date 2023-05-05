@@ -1,0 +1,139 @@
+.about-container{
+   
+}
+
+.strength{
+    display: flex;
+    margin: 50px;
+    padding-bottom: 20px;
+    border-bottom: solid;
+    border-width: 1px;
+}
+
+.str-word{
+    padding: 20px;
+    width: calc(100%/2);
+}
+
+
+.str-word p{
+    font-size: large;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    padding: 20px;
+    margin-right: 20px;
+}
+.str-stat{
+    width:calc((100%/2))
+}
+
+
+.stat-1 p{
+    width:100%;
+    background-color: #222;
+    border-radius: 20px;
+}
+
+.stat-2{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.about-container2{
+    min-height: 100vh;
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+.about-heading{
+    text-align: center;
+}
+
+.about-heading p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    padding: 30px;
+    line-height: 34px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0px;
+    text-transform: none;
+    word-spacing: 5px;
+    margin: 20px;
+}
+
+.about-missions{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.mission-1{
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
+}
+.mission-heading{
+    text-align: center;
+}
+
+.mission-1 p{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none;
+    color: #505050;
+    width: fit-content;
+    margin-left: 20px;
+}
+
+.mis-1{
+    border-right: dotted;
+    border-width: 2px;
+}
+
+.mission-1 img{
+    height: 50px;
+    width: 50px;
+}
+
+@media(max-width:850px){
+    .about-container{
+        margin: 0;
+    }
+    .str-word p{
+        font-size: medium;
+        word-spacing: 1px;
+        margin: 0;
+        width: fit-content;
+        padding: 0;
+    }
+
+    .str-stat{
+        margin: 0;
+    }
+    .about-missions{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        flex-direction: column;
+    }
+    .mis-1{
+        border: 0;
+    }
+    .mission-1 p{
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0px;
+        font-weight: 400;
+        font-style: normal;
+        text-transform: none;
+        color: #505050;
+        width: fit-content;
+        margin-left: 20px;
+    }
+    
+}
