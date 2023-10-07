@@ -1,4 +1,10 @@
-#
+# About 
+
+Website for the Company TGK Constructions, Salem.TGK website is for customers who want to buy the products and booking of orders for their construction building. And also contact them in website by they can recieve mails from the company. It is a customer friendly website.
+
+
+# App Demo
+### `https://tgkenterprises.netlify.app/`
 
 
 # Getting Started with Create React App
